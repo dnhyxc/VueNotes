@@ -52,6 +52,16 @@
 
 - v-bind语法糖：`:xxx = "yyy"`。
 
+3.3，强制绑定class和style
+
+- 在应用界面中，某些元素的样式是变化的。class和style绑定就是专门用来实现动态样式效果的技术。
+
+- :class = "XXX"用于动态绑定class属性
+
+- ：style = "{ color: activeColor, fontSize: fontSize + "px"}"用于动态绑定color属性和fontSize属性。
+
+    - activeColor与fontSize是data属性。
+
 #### 4.v-on(绑定事件监听)
 
 4.1，v-on可以绑定事件监听。
